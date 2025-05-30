@@ -42,7 +42,7 @@ pip install tensorflow tensorflow-addons numpy pandas scipy statsmodels scikit-l
    * 将 `Thor Flight93` 数据集放置于 `Flight93/data/` 目录下，确保文件命名与代码中一致。
    * 修改 `data/` 下的路径配置脚本以指向本地数据文件。
 
-2. **预处理与特征筛选**：
+2. **预处理与特征筛选**(文件夹已经包含生成后的)：
 
    ```bash
    # 在 util/ 目录下执行预处理脚本，生成平滑后的特征和MIC筛选结果
@@ -76,7 +76,7 @@ pip install tensorflow tensorflow-addons numpy pandas scipy statsmodels scikit-l
 
 ## 脚本说明
 
-* `ContrastExperiment.py`：实现 CrossAttention-BiTCN 与基线模型在偏移/漂移异常场景下的检测指标对比。
+* `ContrastExperiment.py`：实现 DCATCN 与基线模型在偏移/漂移异常场景下的检测指标对比。
 * `AblationExperiment.py`：移除注意力、双向或 EVT 模块后对模型性能影响的消融分析。
 * `GEVvis.py`：对训练残差极值进行 GEV 分布拟合，并绘制概率密度与阈值位置。
 * `ThresholdCompare.py`：对比 MSE、MAD 和 GEV 三种阈值设定方法下的 TPR/FPR/ACC/F1-score 表现。
