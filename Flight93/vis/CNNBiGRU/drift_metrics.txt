@@ -1,0 +1,13 @@
+Evaluation Results for drift:
+TPR: 80.33%
+FPR: 0.00%
+ACC: 92.59%
+f1_score: 0.8909
+TP: 964.0000
+TN: 1985.0000
+FP: 0.0000
+FN: 236.0000
+
+Data Recovery Results for drift:
+  MAE = 0.0930
+  MSE = 0.0310

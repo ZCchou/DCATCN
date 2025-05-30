@@ -1,0 +1,4 @@
+model,phase,exp_type,time_s
+1DCNNLSTM,train,,41.81
+1DCNNLSTM,infer,bias,0.41
+1DCNNLSTM,infer,drift,0.46

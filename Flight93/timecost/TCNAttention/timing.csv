@@ -1,0 +1,7 @@
+model,phase,exp_type,time_s
+TCNAttention,train,,48.20
+TCNAttention,infer,bias,0.61
+TCNAttention,infer,drift,0.62
+TCNAttention,train,,35.28
+TCNAttention,infer,bias,0.61
+TCNAttention,infer,drift,0.62

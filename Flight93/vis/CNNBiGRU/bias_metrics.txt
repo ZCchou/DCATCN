@@ -1,0 +1,13 @@
+Evaluation Results for bias:
+TPR: 49.08%
+FPR: 0.00%
+ACC: 80.82%
+f1_score: 0.6585
+TP: 589.0000
+TN: 1985.0000
+FP: 0.0000
+FN: 611.0000
+
+Data Recovery Results for bias:
+  MAE = 0.0656
+  MSE = 0.0241

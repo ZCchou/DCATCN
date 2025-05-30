@@ -1,0 +1,7 @@
+model,phase,exp_type,time_s
+BiTCNAttention,train,,175.42
+BiTCNAttention,infer,bias,1.73
+BiTCNAttention,infer,drift,1.82
+BiTCNAttention,train,,124.27
+BiTCNAttention,infer,bias,1.72
+BiTCNAttention,infer,drift,1.78

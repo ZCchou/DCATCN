@@ -1,0 +1,7 @@
+model,phase,exp_type,time_s
+BiTCN,train,,82.01
+BiTCN,infer,bias,0.82
+BiTCN,infer,drift,0.84
+BiTCN,train,,63.34
+BiTCN,infer,bias,0.78
+BiTCN,infer,drift,0.84
